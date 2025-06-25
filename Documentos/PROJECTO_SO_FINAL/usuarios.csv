@@ -1,0 +1,4 @@
+ID;usuario;senha;funcao;telefone;morada;filial_id
+01;Fernando;1234;Admin;929516315;luanda
+
+02;Firmino;1234;Vendas;932123453;Luanda;01
