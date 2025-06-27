@@ -1,0 +1,11 @@
+----------- COMPROVATIVO DE VENDA -----------
+Venda Nº         : 03
+Data da Venda    : 2025-06-27 02:49
+Cliente          : Magalhães Neto
+Carro ID         : 01
+Marca do Carro   : BMW
+Preço            : 145.000kz
+Atendido por     : Lourenço Suco
+Filial           : Benguela
+---------------------------------------------
+Obrigado por comprar na ANGOLA CARS

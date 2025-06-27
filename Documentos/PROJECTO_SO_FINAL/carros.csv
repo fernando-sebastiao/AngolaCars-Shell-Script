@@ -1,1 +1,3 @@
-id;marca;data_entrada;preco
+id;marca;data_entrada;preco;id_filial
+01;Mercedes;12-10-2025;189.000.000kz;
+02;jibB;12-10-2025;140000;

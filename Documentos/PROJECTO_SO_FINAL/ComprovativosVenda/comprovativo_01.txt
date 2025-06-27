@@ -1,0 +1,11 @@
+----------- COMPROVATIVO DE VENDA -----------
+Venda Nº         : 01
+Data da Venda    : 2025-06-27 01:38
+Cliente          : Unidade
+Carro ID         : 01
+Marca do Carro   : BMW
+Preço            : 13.000.000
+Atendido por     : Antonio Nongo
+Filial           : Malange
+---------------------------------------------
+Obrigado por comprar na ANGOLA CARS

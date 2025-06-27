@@ -1,0 +1,4 @@
+id_venda;carro_id;data_venda;preco_venda;cliente_nome;user_id;nome_funcionario;filial_nome
+01;01;2025-06-27 01:38;13.000.000;Unidade;03;Antonio Nongo;Malange
+02;01;2025-06-27 01:45;145.000kz;Yato Mono;04;Mateus Nongo;Benguela
+03;01;2025-06-27 02:49;145.000kz;Magalhães Neto;07;Lourenço Suco;Benguela

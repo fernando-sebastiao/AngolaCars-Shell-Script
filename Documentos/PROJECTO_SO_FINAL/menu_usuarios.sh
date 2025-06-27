@@ -9,7 +9,7 @@ cadastrar_funcionario() {
   fi
 
   ultimo_id=$(tail -n +2 usuarios.csv | cut -d';' -f1 | sort -n | tail -1)
-  
+
   if [ -z "$ultimo_id" ]; then
     novo_id="01"
   else
@@ -22,19 +22,25 @@ cadastrar_funcionario() {
   read -p "Função (Admin/Vendas/Recepcao): " funcao
   read -p "Telefone: " telefone
   read -p "Morada: " morada
-  read -p "Filial_Id: " filial_id
+  read -p "Filial_Id (ENTER para sede): " filial_id
 
-  # Verificar se a filial existe
-  if ! grep -q "^$filial_id;" filiais.csv; then
-    echo "Filial com ID $filial_id não encontrada!"
-    sleep 2
-    return
+  # Se o usuário pressionar ENTER, define como vazio (sede)
+  if [ -z "$filial_id" ]; then
+    filial_id=""
+  else
+    # Verifica se a filial informada existe
+    if ! grep -q "^$filial_id;" filiais.csv; then
+      echo "Filial com ID $filial_id não encontrada!"
+      sleep 2
+      return
+    fi
   fi
 
   echo "$novo_id;$nome;$senha;$funcao;$telefone;$morada;$filial_id" >> usuarios.csv
   echo "Funcionário cadastrado com sucesso! (ID: $novo_id)"
   sleep 2
 }
+
 
 eliminar_usuario() {
   clear

@@ -1,4 +1,9 @@
 ID;usuario;senha;funcao;telefone;morada;filial_id
 01;Fernando;1234;Admin;929516315;luanda
 
-02;Firmino;1234;Vendas;932123453;Luanda;01
+02;Firmino Sambambi;1234;Admin;987123456;Talatona;02
+03;Antonio Nongo;sonho7;Vendas;923456123;Cassequel do Lourenço;02
+04;Mateus Nongo;1234;Vendas;912345678;Lobito;03
+05;Bastos Kissanga;1234;Recepcao;923456123;Malange;02
+06;Teresa Mafuta;1234;Recepcao;923456786;Luanda;
+07;Lourenço Suco;1234;Admin;923456789;Lobito;03

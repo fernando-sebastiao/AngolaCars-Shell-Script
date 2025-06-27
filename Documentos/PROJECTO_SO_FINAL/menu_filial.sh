@@ -159,7 +159,7 @@ menu_filial() {
       1) cadastrar_filial;;
       2) listar_filiais;;
       3) editar_filial;;
-      4) ;;
+      4) eliminar_filial;;
       0) break ;;
       *) echo "Opção inválida!"; sleep 1 ;;
     esac
